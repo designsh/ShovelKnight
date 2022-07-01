@@ -1,0 +1,1228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="SJH_AppMain.cpp" />
+    <ClCompile Include="SGameCore.cpp">
+      <Filter>GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="ShovelKnigthTitle.cpp">
+      <Filter>GameContents\Scene\ShovelKnightTitle</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleBackDrop.cpp">
+      <Filter>GameContents\Actor\ShovelKnightTitle</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuButton.cpp">
+      <Filter>GameContents\Actor\ShovelKnightTitle</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuSelector.cpp">
+      <Filter>GameContents\Actor\ShovelKnightTitle</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMapEditor.cpp">
+      <Filter>GameContents\Scene\TileMapEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Plains.cpp">
+      <Filter>GameContents\Scene\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelMap.cpp">
+      <Filter>GameContents\Scene\LevelMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress.cpp">
+      <Filter>GameContents\Scene\Enchantress</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingCredit.cpp">
+      <Filter>GameContents\Scene\Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="GameIntro.cpp">
+      <Filter>GameContents\Scene\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroBackDrop.cpp">
+      <Filter>GameContents\Actor\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleEffect.cpp">
+      <Filter>GameContents\Actor\ShovelKnightTitle</Filter>
+    </ClCompile>
+    <ClCompile Include="ShovelKnightInfo.cpp">
+      <Filter>GameContents\Actor\Stage1\ShovelKnightInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeInOutActor.cpp">
+      <Filter>GameContents\Actor\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="StateTopBar.cpp">
+      <Filter>GameContents\Actor\Stage1\UI\StateBar</Filter>
+    </ClCompile>
+    <ClCompile Include="Beeto.cpp">
+      <Filter>GameContents\Actor\Stage1\Monster\Beeto</Filter>
+    </ClCompile>
+    <ClCompile Include="Beeto_State.cpp">
+      <Filter>GameContents\Actor\Stage1\Monster\Beeto</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalValue.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterInfo.cpp">
+      <Filter>GameContents\Actor\Stage1\Monster\MonsterInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="PlainsBackDrop.cpp">
+      <Filter>GameContents\Actor\Stage1\BackDrop\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="PlainsCollisionMap.cpp">
+      <Filter>GameContents\Actor\Stage1\BackDrop\CollisionMap</Filter>
+    </ClCompile>
+    <ClCompile Include="PlainsTileMap.cpp">
+      <Filter>GameContents\Actor\Stage1\BackDrop\TileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingPlatform.cpp">
+      <Filter>GameContents\Actor\Stage1\BackDrop\MovingPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="StoneObject.cpp">
+      <Filter>GameContents\Actor\Stage1\Object\Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="StoneObject_State.cpp">
+      <Filter>GameContents\Actor\Stage1\Object\Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="StoneObject_Fragments.cpp">
+      <Filter>GameContents\Actor\Stage1\Object\Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="DirtBlock.cpp">
+      <Filter>GameContents\Actor\Stage1\Object\DirtBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="DitBlock_State.cpp">
+      <Filter>GameContents\Actor\Stage1\Object\DirtBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="DirtBlock_Small.cpp">
+      <Filter>GameContents\Actor\Stage1\Object\DirtBlock_Small</Filter>
+    </ClCompile>
+    <ClCompile Include="DirtBlock_Small_State.cpp">
+      <Filter>GameContents\Actor\Stage1\Object\DirtBlock_Small</Filter>
+    </ClCompile>
+    <ClCompile Include="PileBubbles.cpp">
+      <Filter>GameContents\Actor\Stage1\Object\PileBubbles</Filter>
+    </ClCompile>
+    <ClCompile Include="Beeto_Collision.cpp">
+      <Filter>GameContents\Actor\Stage1\Monster\Beeto</Filter>
+    </ClCompile>
+    <ClCompile Include="PileBubbles_State.cpp">
+      <Filter>GameContents\Actor\Stage1\Object\PileBubbles</Filter>
+    </ClCompile>
+    <ClCompile Include="PileBubbles_Collision.cpp">
+      <Filter>GameContents\Actor\Stage1\Object\PileBubbles</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingPlatform_State.cpp">
+      <Filter>GameContents\Actor\Stage1\BackDrop\MovingPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingPlatform_Collision.cpp">
+      <Filter>GameContents\Actor\Stage1\BackDrop\MovingPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="SavePoint.cpp">
+      <Filter>GameContents\Actor\Stage1\Object\SavePoint</Filter>
+    </ClCompile>
+    <ClCompile Include="SavePoint_State.cpp">
+      <Filter>GameContents\Actor\Stage1\Object\SavePoint</Filter>
+    </ClCompile>
+    <ClCompile Include="SavePoint_Collision.cpp">
+      <Filter>GameContents\Actor\Stage1\Object\SavePoint</Filter>
+    </ClCompile>
+    <ClCompile Include="DeathScreen.cpp">
+      <Filter>GameContents\Actor\Stage1\Object\DeathScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="DeathScreen_State.cpp">
+      <Filter>GameContents\Actor\Stage1\Object\DeathScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="DirtBlock_Small_Collision.cpp">
+      <Filter>GameContents\Actor\Stage1\Object\DirtBlock_Small</Filter>
+    </ClCompile>
+    <ClCompile Include="DirtBlock_Collision.cpp">
+      <Filter>GameContents\Actor\Stage1\Object\DirtBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="Dozedrake.cpp">
+      <Filter>GameContents\Actor\Stage1\Monster\Dozedrake</Filter>
+    </ClCompile>
+    <ClCompile Include="Dozedrake_State.cpp">
+      <Filter>GameContents\Actor\Stage1\Monster\Dozedrake</Filter>
+    </ClCompile>
+    <ClCompile Include="Dozedrake_Collision.cpp">
+      <Filter>GameContents\Actor\Stage1\Monster\Dozedrake</Filter>
+    </ClCompile>
+    <ClCompile Include="Dozedrake_AttackBubble.cpp">
+      <Filter>GameContents\Actor\Stage1\Monster\Dozedrake\Dozedrake_AttackBubble</Filter>
+    </ClCompile>
+    <ClCompile Include="Dozedrake_AttackBubble_State.cpp">
+      <Filter>GameContents\Actor\Stage1\Monster\Dozedrake\Dozedrake_AttackBubble</Filter>
+    </ClCompile>
+    <ClCompile Include="Dozedrake_AttackBubble_Collision.cpp">
+      <Filter>GameContents\Actor\Stage1\Monster\Dozedrake\Dozedrake_AttackBubble</Filter>
+    </ClCompile>
+    <ClCompile Include="SkullSoldier.cpp">
+      <Filter>GameContents\Actor\Stage1\Monster\Skull Soldier</Filter>
+    </ClCompile>
+    <ClCompile Include="SkullSoldier_State.cpp">
+      <Filter>GameContents\Actor\Stage1\Monster\Skull Soldier</Filter>
+    </ClCompile>
+    <ClCompile Include="SkullSoldier_Collision.cpp">
+      <Filter>GameContents\Actor\Stage1\Monster\Skull Soldier</Filter>
+    </ClCompile>
+    <ClCompile Include="Dozedrake_DeathEffect.cpp">
+      <Filter>GameContents\Actor\Stage1\Monster\Dozedrake\Dozedrake_DeathEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Dozedrake_DeathEffect_State.cpp">
+      <Filter>GameContents\Actor\Stage1\Monster\Dozedrake\Dozedrake_DeathEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Slime.cpp">
+      <Filter>GameContents\Actor\Stage1\Monster\Slime</Filter>
+    </ClCompile>
+    <ClCompile Include="Slime_State.cpp">
+      <Filter>GameContents\Actor\Stage1\Monster\Slime</Filter>
+    </ClCompile>
+    <ClCompile Include="Slime_Collision.cpp">
+      <Filter>GameContents\Actor\Stage1\Monster\Slime</Filter>
+    </ClCompile>
+    <ClCompile Include="Dragon.cpp">
+      <Filter>GameContents\Actor\Stage1\Monster\Dragon</Filter>
+    </ClCompile>
+    <ClCompile Include="Dragon_State.cpp">
+      <Filter>GameContents\Actor\Stage1\Monster\Dragon</Filter>
+    </ClCompile>
+    <ClCompile Include="Dragon_Collision.cpp">
+      <Filter>GameContents\Actor\Stage1\Monster\Dragon</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackKnight.cpp">
+      <Filter>GameContents\Actor\Stage1\Monster\BlackKnight</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackKnight_State.cpp">
+      <Filter>GameContents\Actor\Stage1\Monster\BlackKnight</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackKnight_Collision.cpp">
+      <Filter>GameContents\Actor\Stage1\Monster\BlackKnight</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackKnight_SkillEffect.cpp">
+      <Filter>GameContents\Actor\Stage1\Monster\BlackKnight\BlackKnight_SkillEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackKnight_SkillEffect_State.cpp">
+      <Filter>GameContents\Actor\Stage1\Monster\BlackKnight\BlackKnight_SkillEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackKnight_SkillEffect_Collision.cpp">
+      <Filter>GameContents\Actor\Stage1\Monster\BlackKnight\BlackKnight_SkillEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Plains_ImageCut.cpp">
+      <Filter>GameContents\Scene\Stage1\Plains_ImageCut</Filter>
+    </ClCompile>
+    <ClCompile Include="Plains_CollisionGroup.cpp">
+      <Filter>GameContents\Scene\Stage1\Plains_CollisionGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="Plains_BacKDropActor.cpp">
+      <Filter>GameContents\Scene\Stage1\Plains_BackDropActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Plains_MonsterActor.cpp">
+      <Filter>GameContents\Scene\Stage1\Plains_MonsterActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Plains_ObjectActor.cpp">
+      <Filter>GameContents\Scene\Stage1\Plains_ObjectActor</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackKnight_StateCheck.cpp">
+      <Filter>GameContents\Actor\Stage1\Monster\BlackKnight\BlackKnight_StateCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackKnight_MovePosCheck.cpp">
+      <Filter>GameContents\Actor\Stage1\Monster\BlackKnight\BlackKnight_MovePosCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackKnight_TimeEventer.cpp">
+      <Filter>GameContents\Actor\Stage1\Monster\BlackKnight\BlackKnight_TimeEventer</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackKnight_DirectCheck.cpp">
+      <Filter>GameContents\Actor\Stage1\Monster\BlackKnight\BlackKnight_DirectCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="DropGold.cpp">
+      <Filter>GameContents\Actor\Stage1\Object\DropGold</Filter>
+    </ClCompile>
+    <ClCompile Include="DropGold_State.cpp">
+      <Filter>GameContents\Actor\Stage1\Object\DropGold</Filter>
+    </ClCompile>
+    <ClCompile Include="DropGold_Collision.cpp">
+      <Filter>GameContents\Actor\Stage1\Object\DropGold</Filter>
+    </ClCompile>
+    <ClCompile Include="StoneObject_Collision.cpp">
+      <Filter>GameContents\Actor\Stage1\Object\Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="GoldObject.cpp">
+      <Filter>GameContents\Actor\Stage1\Object\GoldObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GoldObject_State.cpp">
+      <Filter>GameContents\Actor\Stage1\Object\GoldObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GoldObject_Collision.cpp">
+      <Filter>GameContents\Actor\Stage1\Object\GoldObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Platter.cpp">
+      <Filter>GameContents\Actor\Stage1\Object\Platter</Filter>
+    </ClCompile>
+    <ClCompile Include="Platter_Collision.cpp">
+      <Filter>GameContents\Actor\Stage1\Object\Platter</Filter>
+    </ClCompile>
+    <ClCompile Include="Chicken.cpp">
+      <Filter>GameContents\Actor\Stage1\Object\Platter\Chicken</Filter>
+    </ClCompile>
+    <ClCompile Include="Chicken_Collision.cpp">
+      <Filter>GameContents\Actor\Stage1\Object\Platter\Chicken</Filter>
+    </ClCompile>
+    <ClCompile Include="Platter_FragmentsFloor.cpp">
+      <Filter>GameContents\Actor\Stage1\Object\Platter\FragmentsFloor</Filter>
+    </ClCompile>
+    <ClCompile Include="Platter_FragmentsLid.cpp">
+      <Filter>GameContents\Actor\Stage1\Object\Platter\FragmentsLid</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>GameContents\Actor\Stage1\UI\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelMapBackDrop.cpp">
+      <Filter>GameContents\Actor\LevelMap\BackDrop\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelMap_ImageCut.cpp">
+      <Filter>GameContents\Scene\LevelMap\LevelMap_ImageCut</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelMap_CollisionGroup.cpp">
+      <Filter>GameContents\Scene\LevelMap\LevelMap_CollisionGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelMap_BackDropActor.cpp">
+      <Filter>GameContents\Scene\LevelMap\LevelMap_BackDropActor</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelMap_ObjectActor.cpp">
+      <Filter>GameContents\Scene\LevelMap\LevelMap_ObjectActor</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelMapCollisionMap.cpp">
+      <Filter>GameContents\Actor\LevelMap\BackDrop\CollisionMap</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelMapTileMap.cpp">
+      <Filter>GameContents\Actor\LevelMap\BackDrop\TileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Plains_Icon.cpp">
+      <Filter>GameContents\Actor\LevelMap\Object\MapIcon\Plains_Icon</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress_Icon.cpp">
+      <Filter>GameContents\Actor\LevelMap\Object\MapIcon\Enchantress_Icon</Filter>
+    </ClCompile>
+    <ClCompile Include="None_Icon.cpp">
+      <Filter>GameContents\Actor\LevelMap\Object\MapIcon\None_Icon</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMaker.cpp">
+      <Filter>GameContents\Actor\LevelMap\PlayerMaker</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMaker_CreateAnimaion.cpp">
+      <Filter>GameContents\Actor\LevelMap\PlayerMaker\PlayerMaker_CreateAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMaker_MoveTileCheck.cpp">
+      <Filter>GameContents\Actor\LevelMap\PlayerMaker\PlayerMaker_MoveTileCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMaker_CreateFSM.cpp">
+      <Filter>GameContents\Actor\LevelMap\PlayerMaker\PlayerMaker_CreateFSM</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMaker_CreateKey.cpp">
+      <Filter>GameContents\Actor\LevelMap\PlayerMaker\PlayerMaker_CreateKey</Filter>
+    </ClCompile>
+    <ClCompile Include="MapCloud.cpp">
+      <Filter>GameContents\Actor\LevelMap\Object\MapCloud</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress_BackDropActor.cpp">
+      <Filter>GameContents\Scene\Enchantress\Enchantress_BackDropActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress_CollisionGroup.cpp">
+      <Filter>GameContents\Scene\Enchantress\Enchantress_CollisionGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress_ImageCut.cpp">
+      <Filter>GameContents\Scene\Enchantress\Enchantress_ImageCut</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress_MonsterActor.cpp">
+      <Filter>GameContents\Scene\Enchantress\Enchantress_MonsterActor</Filter>
+    </ClCompile>
+    <ClCompile Include="EnchantressBackDrop.cpp">
+      <Filter>GameContents\Actor\Enchantress\BackDrop\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="EnchantressCollisionMap.cpp">
+      <Filter>GameContents\Actor\Enchantress\BackDrop\CollisionMap</Filter>
+    </ClCompile>
+    <ClCompile Include="EnchantressTileMap.cpp">
+      <Filter>GameContents\Actor\Enchantress\BackDrop\TileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="EnchantressBrokenTile.cpp">
+      <Filter>GameContents\Actor\Enchantress\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress_FinalBoss.cpp">
+      <Filter>GameContents\Actor\Enchantress\Monster\FinalBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress_FinalBoss_State.cpp">
+      <Filter>GameContents\Actor\Enchantress\Monster\FinalBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress_FinalBoss_Collision.cpp">
+      <Filter>GameContents\Actor\Enchantress\Monster\FinalBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="ShovelKnight.cpp">
+      <Filter>GameContents\Actor\Stage1\ShovelKnight</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInfomation.cpp">
+      <Filter>GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Create\PlayerInfomation</Filter>
+    </ClCompile>
+    <ClCompile Include="ShovelKnight_KeyCreate.cpp">
+      <Filter>GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Create\Key</Filter>
+    </ClCompile>
+    <ClCompile Include="ShovelKnight_BrokenTile.cpp">
+      <Filter>GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Create\BrokenTileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="ShovelKnight_CreateCollision.cpp">
+      <Filter>GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Create\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="ShovelKnight_CreateAnimation.cpp">
+      <Filter>GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Create\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="ShovelKnight_CreateFSM.cpp">
+      <Filter>GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Create\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="ShovelKnight_State.cpp">
+      <Filter>GameContents\Actor\Stage1\ShovelKnight</Filter>
+    </ClCompile>
+    <ClCompile Include="ShovelKnight_Collision.cpp">
+      <Filter>GameContents\Actor\Stage1\ShovelKnight</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera_Pixel.cpp">
+      <Filter>GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Create\Pixel\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_Pixel.cpp">
+      <Filter>GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Create\Pixel\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ShovelKnight_CameraLerp.cpp">
+      <Filter>GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Camera\Lerp</Filter>
+    </ClCompile>
+    <ClCompile Include="BrokenTileEffect.cpp">
+      <Filter>GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Create\BrokenTileMap\BrokenTile_Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="BrokenTileEffect_State.cpp">
+      <Filter>GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Create\BrokenTileMap\BrokenTile_Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="ShovelKnight_StateCheck.cpp">
+      <Filter>GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Check\ShovelKnight_StateCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="ShovelKnight_MovePosCheck.cpp">
+      <Filter>GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Check\ShovelKnight_MovePosCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="ShovelKnight_ColState.cpp">
+      <Filter>GameContents\Actor\Stage1\ShovelKnight</Filter>
+    </ClCompile>
+    <ClCompile Include="ShovelKnight_ColStateCheck.cpp">
+      <Filter>GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Check\ShovelKnight_StateCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="ShovelKnight_ColMovePosCheck.cpp">
+      <Filter>GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Check\ShovelKnight_MovePosCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="Plains_IconEffect.cpp">
+      <Filter>GameContents\Actor\LevelMap\Object\MapIcon\Plains_Icon\Plains_Icon_Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Plains_IconEffect_State.cpp">
+      <Filter>GameContents\Actor\LevelMap\Object\MapIcon\Plains_Icon\Plains_Icon_Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="EnchantressBrokenTile_Collision.cpp">
+      <Filter>GameContents\Actor\Enchantress\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="EnchantressBrokenTile_State.cpp">
+      <Filter>GameContents\Actor\Enchantress\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress_ObjectActor.cpp">
+      <Filter>GameContents\Scene\Enchantress\Enchantress_ObjectActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Create_BrokenObject.cpp">
+      <Filter>GameContents\Actor\Enchantress\Monster\FinalBoss\Create\Create_BrokenObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Create_FinalBossCollision.cpp">
+      <Filter>GameContents\Actor\Enchantress\Monster\FinalBoss\Create\Create_FinalBossCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="Create_FinalBossAnimation.cpp">
+      <Filter>GameContents\Actor\Enchantress\Monster\FinalBoss\Create\Create_FinalBossAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="Create_FinalBossFSM.cpp">
+      <Filter>GameContents\Actor\Enchantress\Monster\FinalBoss\Create\Create_FinalBossFSM</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress_ShovelKnight.cpp">
+      <Filter>GameContents\Actor\Enchantress\ShovelKnight</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress_ShovelKnight_State.cpp">
+      <Filter>GameContents\Actor\Enchantress\ShovelKnight</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress_ShovelKnight_Collision.cpp">
+      <Filter>GameContents\Actor\Enchantress\ShovelKnight</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress_ShovelKnight_CreateAnimation.cpp">
+      <Filter>GameContents\Actor\Enchantress\ShovelKnight\Create\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress_ShovelKnight_CreateCollision.cpp">
+      <Filter>GameContents\Actor\Enchantress\ShovelKnight\Create\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress_ShovelKnight_CreateFSM.cpp">
+      <Filter>GameContents\Actor\Enchantress\ShovelKnight\Create\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress_ShovelKnight_CreateKey.cpp">
+      <Filter>GameContents\Actor\Enchantress\ShovelKnight\Create\Key</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress_ShovelKnight_SettingInfo.cpp">
+      <Filter>GameContents\Actor\Enchantress\ShovelKnight\Create\PlayerInfomation</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress_Camera_Pixel.cpp">
+      <Filter>GameContents\Actor\Enchantress\ShovelKnight\Create\Pixel\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress_Player_Pixel.cpp">
+      <Filter>GameContents\Actor\Enchantress\ShovelKnight\Create\Pixel\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress_ShovelKngith_CameraLerp.cpp">
+      <Filter>GameContents\Actor\Enchantress\ShovelKnight\Camera_Lerp</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress_ShovelKnight_MovePosCheck.cpp">
+      <Filter>GameContents\Actor\Enchantress\ShovelKnight\Check\MovePosCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress_ShovelKnight_StateCheck.cpp">
+      <Filter>GameContents\Actor\Enchantress\ShovelKnight\Check\StateCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress_StateBar.cpp">
+      <Filter>GameContents\Actor\Enchantress\UI\StateBar</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress_FinalBossAppear_CamCheck.cpp">
+      <Filter>GameContents\Actor\Enchantress\Monster\FinalBoss\Check\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress_FinalBoss_MovePosCheck.cpp">
+      <Filter>GameContents\Actor\Enchantress\Monster\FinalBoss\Check\MovePos_Check</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress_FinalBoss_StateCheck.cpp">
+      <Filter>GameContents\Actor\Enchantress\Monster\FinalBoss\Check\State_Check</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress_FinalBoss_AttackSkill.cpp">
+      <Filter>GameContents\Actor\Enchantress\Monster\FinalBoss\AttackSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress_FinalBoss_AttackSkill_Collision.cpp">
+      <Filter>GameContents\Actor\Enchantress\Monster\FinalBoss\AttackSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress_FinalBoss_AttackSkill_State.cpp">
+      <Filter>GameContents\Actor\Enchantress\Monster\FinalBoss\AttackSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress_FinalBoss_RegenSkill.cpp">
+      <Filter>GameContents\Actor\Enchantress\Monster\FinalBoss\TileRegenSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress_FinalBoss_RegenSkill_State.cpp">
+      <Filter>GameContents\Actor\Enchantress\Monster\FinalBoss\TileRegenSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantress_FinalBoss_RegenSkill_Collision.cpp">
+      <Filter>GameContents\Actor\Enchantress\Monster\FinalBoss\TileRegenSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="Create_FinalBossBeShotImage.cpp">
+      <Filter>GameContents\Actor\Enchantress\Monster\FinalBoss\Create\Create_FinalBossBeShotImage</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingCredit_BackDropActor.cpp">
+      <Filter>GameContents\Scene\Ending\EndingCredit_BackDropActor</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingCredit_ImageCut.cpp">
+      <Filter>GameContents\Scene\Ending\EndingCredit_ImageCut</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingCredit_ObjectActor.cpp">
+      <Filter>GameContents\Scene\Ending\EndingCredit_ObjectActor</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingText.cpp">
+      <Filter>GameContents\Actor\Ending\Object\EndingText</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingText_State.cpp">
+      <Filter>GameContents\Actor\Ending\Object\EndingText</Filter>
+    </ClCompile>
+    <ClCompile Include="CampFire.cpp">
+      <Filter>GameContents\Actor\Ending\Object\CampFire</Filter>
+    </ClCompile>
+    <ClCompile Include="CampFire_State.cpp">
+      <Filter>GameContents\Actor\Ending\Object\CampFire</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingBackDrop.cpp">
+      <Filter>GameContents\Actor\Ending\BackGround\BackDrop</Filter>
+    </ClCompile>
+    <ClCompile Include="CampFire_BackDrop.cpp">
+      <Filter>GameContents\Actor\Ending\BackGround\CampFire_BackDrop</Filter>
+    </ClCompile>
+    <ClCompile Include="Ending_Player.cpp">
+      <Filter>GameContents\Actor\Ending\Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Ending_Player_State.cpp">
+      <Filter>GameContents\Actor\Ending\Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorTileBackDrop.cpp">
+      <Filter>GameContents\Actor\TileMapEditor\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorBackDrop.cpp">
+      <Filter>GameContents\Actor\TileMapEditor\BackGound</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GameCore">
+      <UniqueIdentifier>{fb600040-c967-44f7-9b7a-6f44d05f60f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents">
+      <UniqueIdentifier>{a74e5c53-6518-4e92-ae07-c5679172743d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor">
+      <UniqueIdentifier>{3492f27e-b5fc-4907-b3e9-d004f6d5dfeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Scene">
+      <UniqueIdentifier>{3a9092d0-4918-4b35-8b86-46d66ad74d91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Scene\ShovelKnightTitle">
+      <UniqueIdentifier>{1dfcefb7-20b9-44f9-96f8-490f448b122c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Scene\TileMapEditor">
+      <UniqueIdentifier>{eade97fc-3217-473e-aade-def20745aed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\TileMapEditor">
+      <UniqueIdentifier>{8df48da3-beb7-4fad-bff4-2ca32a5b8f62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Scene\Stage1">
+      <UniqueIdentifier>{ddc5864e-772d-4f2f-bb1e-134b68956e6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1">
+      <UniqueIdentifier>{1f2d3955-c5a7-4ffd-a4fa-d0c97478476d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Scene\LevelMap">
+      <UniqueIdentifier>{d3a4736d-8dfb-435b-8a1b-21ed1b2bf262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\LevelMap">
+      <UniqueIdentifier>{9ea875d5-7592-4ad8-bc33-8e0ec12894fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Scene\Enchantress">
+      <UniqueIdentifier>{4e61806a-215e-43b0-91fd-e5616c76e977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress">
+      <UniqueIdentifier>{b8d49af8-9aca-4efa-a36b-ac7a81cab267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Scene\Ending">
+      <UniqueIdentifier>{6594b904-e516-491d-9566-cdbac21b1d99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Ending">
+      <UniqueIdentifier>{7acf6333-b52f-4af8-b2b6-22f071610ca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Scene\Intro">
+      <UniqueIdentifier>{8d96b926-3522-4566-9ad1-589fd6fcc945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Intro">
+      <UniqueIdentifier>{d1fe5e92-7b87-4900-9a43-9866ba416f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\ShovelKnightTitle">
+      <UniqueIdentifier>{38626904-1a07-47d7-86dc-84785f190e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\ShovelKnightInfo">
+      <UniqueIdentifier>{e3b7c3c4-4e97-4fb2-ab0b-6fe530c521b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Effect">
+      <UniqueIdentifier>{074fe08a-4639-4d8a-8379-9667b1876c40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\ShovelKnight">
+      <UniqueIdentifier>{f92d6eb0-366b-4b06-83c6-086e1c176b44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\BackDrop">
+      <UniqueIdentifier>{3c3e97e3-3895-4958-8a46-87cc0f815940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\Monster">
+      <UniqueIdentifier>{619ab631-c4e6-4688-ba80-b14914bd4d22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\Monster\Beeto">
+      <UniqueIdentifier>{27fd7768-2668-463a-8bba-ae3a48f8e23b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\Monster\Skull Soldier">
+      <UniqueIdentifier>{05734f86-91af-4e9e-9597-353340cb05e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{e279790f-204f-4b85-ba79-8e90cbcb1e29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\Monster\MonsterInfo">
+      <UniqueIdentifier>{13a177e9-c4a1-4b82-a52f-0ca9b8d38b7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\BackDrop\BackGround">
+      <UniqueIdentifier>{432c095c-c2d0-490e-aaed-201723463bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\BackDrop\CollisionMap">
+      <UniqueIdentifier>{8983a4a4-058d-441c-9875-e89cfaa37942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\BackDrop\TileMap">
+      <UniqueIdentifier>{0e38d678-6afc-4fca-bf11-bc622cf6173c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\BackDrop\MovingPlatform">
+      <UniqueIdentifier>{f64b2980-fe98-43e3-b167-df81dd75facb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\Monster\Dragon">
+      <UniqueIdentifier>{b2890590-faaf-4801-95dc-75010e0c70bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\Monster\Slime">
+      <UniqueIdentifier>{cb002a4c-cc32-4a64-962d-1331e66ed480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\Object">
+      <UniqueIdentifier>{e64a4d13-2708-4ff5-b2a4-900ea04444fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\Object\Stone">
+      <UniqueIdentifier>{b11b6928-997e-4f61-8fc8-3618f3853140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\Object\DirtBlock">
+      <UniqueIdentifier>{08725193-12f2-4221-87da-c9673a3e06f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\Object\DirtBlock_Small">
+      <UniqueIdentifier>{d5f98023-54b3-4e73-8f2a-b284ec729800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\Object\PileBubbles">
+      <UniqueIdentifier>{ed2a05f3-7e19-40ec-beeb-74e8235c51e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\Object\SavePoint">
+      <UniqueIdentifier>{59205f68-b54f-4971-992e-8849528c4496}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\Object\DeathScreen">
+      <UniqueIdentifier>{ee65ba88-92ad-499d-a045-4d27182538e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\Monster\Dozedrake">
+      <UniqueIdentifier>{7e1c65d3-9e57-45a5-950b-4aea9a8fb783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\Monster\Dozedrake\Dozedrake_AttackBubble">
+      <UniqueIdentifier>{fcf41b84-adeb-4d27-bd37-577a596a9281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\Monster\Dozedrake\Dozedrake_DeathEffect">
+      <UniqueIdentifier>{4293151d-29cb-4dbe-b9d7-2f4bdf105378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\Monster\BlackKnight">
+      <UniqueIdentifier>{f73431c8-90d3-48f4-a706-48829ffcaf5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\Monster\BlackKnight\BlackKnight_SkillEffect">
+      <UniqueIdentifier>{b97511ed-e463-4043-9e8d-f6d14a0375b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Scene\Stage1\Plains_BackDropActor">
+      <UniqueIdentifier>{7fba0464-970f-482c-aecb-9de714e3306b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Scene\Stage1\Plains_ImageCut">
+      <UniqueIdentifier>{ff4ea711-be25-46fd-b2ca-81d611a7ca99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Scene\Stage1\Plains_CollisionGroup">
+      <UniqueIdentifier>{fa2e527d-354b-4bc8-acd5-3b196b128f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Scene\Stage1\Plains_ObjectActor">
+      <UniqueIdentifier>{0d9719ae-74b7-4edd-a4ff-3894458334e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Scene\Stage1\Plains_MonsterActor">
+      <UniqueIdentifier>{430f6b62-0b91-429b-9420-8b809f2853cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\Monster\BlackKnight\BlackKnight_StateCheck">
+      <UniqueIdentifier>{de00cdc5-085e-402f-8881-2a1ad40dbe0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\Monster\BlackKnight\BlackKnight_MovePosCheck">
+      <UniqueIdentifier>{08b62d40-f023-4a7d-9eef-b0c414a3676f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\Monster\BlackKnight\BlackKnight_TimeEventer">
+      <UniqueIdentifier>{e9ce0cac-624d-4667-8032-5911f9e4a96b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\Monster\BlackKnight\BlackKnight_DirectCheck">
+      <UniqueIdentifier>{f887ad2b-0dfd-4351-ae0e-60d7922c478e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\Object\DropGold">
+      <UniqueIdentifier>{33423de8-ae68-4a51-ac28-8d16782efe1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\Object\GoldObject">
+      <UniqueIdentifier>{5cd9458b-c5b7-47a0-ad4f-868bf7be99f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\Object\Platter">
+      <UniqueIdentifier>{4fb78662-b5a1-405c-8d7a-9d511ba7db56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\Object\Platter\Chicken">
+      <UniqueIdentifier>{fe64ea4a-b809-4480-8beb-5e28b6ce2021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\Object\Platter\FragmentsFloor">
+      <UniqueIdentifier>{043a8c2a-c1c5-4218-bde2-b871d57f4427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\Object\Platter\FragmentsLid">
+      <UniqueIdentifier>{cb49fe24-a95a-4794-88c2-76bcbe662870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\UI">
+      <UniqueIdentifier>{d0f8b63e-b082-41e9-b9fb-82289a676015}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\UI\StateBar">
+      <UniqueIdentifier>{47711773-9a44-49fa-a4bd-858c5052fb27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\UI\Inventory">
+      <UniqueIdentifier>{9a1e367d-8a04-49c9-8d4c-410dd47d3eb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\LevelMap\BackDrop">
+      <UniqueIdentifier>{f684ff61-fe7d-4611-9ab1-b54c1e2b0478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\LevelMap\Object">
+      <UniqueIdentifier>{c12f58f7-70e9-4ab8-91ff-762d593bbe08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\LevelMap\BackDrop\BackGround">
+      <UniqueIdentifier>{0b98249e-9310-4185-92e1-2ff09fbfa9d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\LevelMap\BackDrop\CollisionMap">
+      <UniqueIdentifier>{8d0d9ac0-ef5d-44e3-9084-cf6d8c39a41a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\LevelMap\BackDrop\TileMap">
+      <UniqueIdentifier>{4963e384-7bf1-44bb-8bc4-32d111c225dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Scene\LevelMap\LevelMap_ImageCut">
+      <UniqueIdentifier>{bb1a5b7f-e179-42e9-b48b-7ec562875259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Scene\LevelMap\LevelMap_CollisionGroup">
+      <UniqueIdentifier>{83529c2d-b6a1-48d1-8687-d8f89674e1e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Scene\LevelMap\LevelMap_BackDropActor">
+      <UniqueIdentifier>{e25f1420-5ca2-467b-ae07-f0e6947a2b62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Scene\LevelMap\LevelMap_ObjectActor">
+      <UniqueIdentifier>{5e8539fc-437e-4e4e-a207-567c5b336611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\LevelMap\Object\MapIcon">
+      <UniqueIdentifier>{0ef17c2e-b3c3-4d88-9d32-c5a74b23fbab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\LevelMap\Object\MapIcon\Plains_Icon">
+      <UniqueIdentifier>{d349a6e5-1a0e-4655-bf44-3fe766036c4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\LevelMap\Object\MapIcon\Enchantress_Icon">
+      <UniqueIdentifier>{9e9648b6-ff8b-4d8a-ba51-b063dfd39487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\LevelMap\Object\MapIcon\None_Icon">
+      <UniqueIdentifier>{9b011737-ff59-42fb-b510-dac7f4868eab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\LevelMap\PlayerMaker">
+      <UniqueIdentifier>{d441c775-74f3-4217-8438-5b7c87e35bd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\LevelMap\PlayerMaker\PlayerMaker_CreateKey">
+      <UniqueIdentifier>{a9beedc9-037d-4f2c-a684-b5b49c2e9ec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\LevelMap\PlayerMaker\PlayerMaker_CreateAnimation">
+      <UniqueIdentifier>{99fa4ac6-4ec3-447a-a61f-4256ed2032a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\LevelMap\PlayerMaker\PlayerMaker_CreateFSM">
+      <UniqueIdentifier>{e6851ba7-3d37-49e1-97d7-99317fc80cca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\LevelMap\Object\MapCloud">
+      <UniqueIdentifier>{8f8125ff-ff1d-4ad0-9a87-91195bf567ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\LevelMap\PlayerMaker\PlayerMaker_MoveTileCheck">
+      <UniqueIdentifier>{79385abf-a2db-4efe-ab10-e708200a4746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Scene\Enchantress\Enchantress_BackDropActor">
+      <UniqueIdentifier>{4144a7a8-bca6-41fb-a11e-dac85164fa0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Scene\Enchantress\Enchantress_CollisionGroup">
+      <UniqueIdentifier>{f70db6ca-d55e-4295-b443-575353526514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Scene\Enchantress\Enchantress_ImageCut">
+      <UniqueIdentifier>{de092239-2453-4549-8155-000f5270afc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Scene\Enchantress\Enchantress_ObjectActor">
+      <UniqueIdentifier>{7f2d1ce0-79d7-43a9-9d61-3c3b3978b707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Scene\Enchantress\Enchantress_MonsterActor">
+      <UniqueIdentifier>{3825413e-ed3e-459c-8dd8-07c207ea7c9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\BackDrop">
+      <UniqueIdentifier>{ccf89e1d-e7b0-49df-8696-5c01934db52d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\Monster">
+      <UniqueIdentifier>{e6385832-e0c1-47be-8acf-6b926c5c5818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\Object">
+      <UniqueIdentifier>{ea5aa407-b110-4ee7-a84b-1ba65af4a626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\BackDrop\BackGround">
+      <UniqueIdentifier>{cbd756c7-59cc-4322-be47-020d86e1ae3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\BackDrop\CollisionMap">
+      <UniqueIdentifier>{453e43d7-28d7-4aeb-8d29-08811fb17dc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\BackDrop\TileMap">
+      <UniqueIdentifier>{ac2bb302-b0fa-4c36-a060-29b54cbc1f0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\Monster\FinalBoss">
+      <UniqueIdentifier>{edba8e14-49c7-4f80-8783-568e3a5c93cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\Monster\FinalBoss\Create">
+      <UniqueIdentifier>{49651e60-6e4f-4164-bc71-1f6bcf3f3849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\Monster\FinalBoss\Check">
+      <UniqueIdentifier>{8f22f0c3-8daf-4094-8de2-79be0264e7a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Create">
+      <UniqueIdentifier>{c1e824e5-e2f4-4189-a642-0846686f0cc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Create\Collision">
+      <UniqueIdentifier>{9953a7b0-bdc9-4d79-bc4f-0274e25aff7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Create\FSM">
+      <UniqueIdentifier>{aa1528b6-f5f6-4fed-bc74-3dd700c74624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Create\TimeEventer">
+      <UniqueIdentifier>{d56dbbea-87a7-4118-ac47-61769f235f64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Create\PlayerInfomation">
+      <UniqueIdentifier>{70a14573-4abd-439b-99cc-5b50fb494560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Create\Key">
+      <UniqueIdentifier>{1eb24c7e-644d-4d82-875c-ab851430c2c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Create\Animation">
+      <UniqueIdentifier>{5bb5fc4a-cbb6-4916-8178-5a744a40f179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Create\BrokenTileMap">
+      <UniqueIdentifier>{d4864937-0898-47fa-b403-98a15ca5cee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Check">
+      <UniqueIdentifier>{870a692c-f0bf-4fb4-9ad0-c46af0ce866b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Camera">
+      <UniqueIdentifier>{29c1fbeb-6e40-4aac-a4c8-28b46503474b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Create\Pixel">
+      <UniqueIdentifier>{9e5764b5-209d-4719-b4f7-eeb93cfe3a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Create\Pixel\Camera">
+      <UniqueIdentifier>{6f174686-c6ed-4745-a8f1-757aa5dd1d31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Create\Pixel\Player">
+      <UniqueIdentifier>{f2e94f72-2f87-42ff-a835-d222a7aa32dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Camera\Lerp">
+      <UniqueIdentifier>{37efa131-9155-4146-affa-0d03425a7f2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Create\BrokenTileMap\BrokenTile_Effect">
+      <UniqueIdentifier>{21dc2adb-1cb5-4fb7-b8c6-38ee09ca9376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Check\ShovelKnight_MovePosCheck">
+      <UniqueIdentifier>{cdb4e2ed-ab53-41f3-a527-141196e94ca6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Check\ShovelKnight_StateCheck">
+      <UniqueIdentifier>{1d586d59-cb82-4faa-991e-62faa22b223b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\LevelMap\Object\MapIcon\Plains_Icon\Plains_Icon_Effect">
+      <UniqueIdentifier>{f3365582-8666-4483-80f1-5e37263702bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\Monster\FinalBoss\Create\Create_BrokenObject">
+      <UniqueIdentifier>{614bf3f5-738a-4094-83d8-1a8d8336b2ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\Monster\FinalBoss\TileRegenSkill">
+      <UniqueIdentifier>{b1a0644a-9706-4f8e-95d5-abe3d4519aec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\Monster\FinalBoss\AttackSkill">
+      <UniqueIdentifier>{5381404f-d5ef-4459-a360-b205536e1c2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\Monster\FinalBoss\Create\Create_FinalBossCollision">
+      <UniqueIdentifier>{f2028f2d-c5f8-4e35-a198-e6eea4ed2823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\Monster\FinalBoss\Create\Create_FinalBossAnimation">
+      <UniqueIdentifier>{5f3d2127-3c13-4347-a1ee-911b6a633dfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\Monster\FinalBoss\Create\Create_FinalBossFSM">
+      <UniqueIdentifier>{1ca2d60d-2e91-4af0-a132-7b6aacf3a403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\ShovelKnight">
+      <UniqueIdentifier>{71bb888f-7b66-4128-840f-54a52dec8625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\ShovelKnight\Create">
+      <UniqueIdentifier>{6b7a76f6-b26f-4a8d-bb58-219f2dfb393c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\ShovelKnight\Create\Collision">
+      <UniqueIdentifier>{fea1a3e3-4d72-4862-870b-e616d7f7cff1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\ShovelKnight\Create\FSM">
+      <UniqueIdentifier>{4b69856b-ef2c-46bb-84fd-efea25706f3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\ShovelKnight\Create\Key">
+      <UniqueIdentifier>{f8d6365f-c1df-407c-8b0b-9d79801849a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\ShovelKnight\Create\Pixel">
+      <UniqueIdentifier>{002c16ae-1653-45e9-a88c-266c96048488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\ShovelKnight\Create\PlayerInfomation">
+      <UniqueIdentifier>{09d21bc6-270a-4d57-94eb-8b784b4ca752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\ShovelKnight\Create\Animation">
+      <UniqueIdentifier>{f773f5b9-cf61-4d98-b170-88e46a2711e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\ShovelKnight\Create\Pixel\Player">
+      <UniqueIdentifier>{74434f72-7646-4f70-a60f-44997ad83978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\ShovelKnight\Create\Pixel\Camera">
+      <UniqueIdentifier>{b6243223-22b2-4fd4-9d7f-e52dd5902782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\ShovelKnight\Camera_Lerp">
+      <UniqueIdentifier>{c2d97973-962f-4e43-bc39-92e30d3f12de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\ShovelKnight\Check">
+      <UniqueIdentifier>{12af5a06-c431-42ec-a39c-6ef53412f0bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\ShovelKnight\Check\StateCheck">
+      <UniqueIdentifier>{31e2daf6-4bd4-416e-8c05-d3304b4bf601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\ShovelKnight\Check\MovePosCheck">
+      <UniqueIdentifier>{3a784bf4-c2dd-4e01-8ebc-0503b49d4531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\UI">
+      <UniqueIdentifier>{a2386800-005e-4604-bb84-b3c14300836d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\UI\StateBar">
+      <UniqueIdentifier>{42181de0-f4b8-4185-bfaf-4e9ccdad6f13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\Monster\FinalBoss\Check\Camera">
+      <UniqueIdentifier>{59ac6cf4-99bf-461f-81c7-df461b686762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\Monster\FinalBoss\Check\MovePos_Check">
+      <UniqueIdentifier>{fbb538f7-f2ef-4da9-9f07-588dcaa6daf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\Monster\FinalBoss\Check\State_Check">
+      <UniqueIdentifier>{7f628d0c-935d-4ed5-85cf-de8ffcb96ded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Enchantress\Monster\FinalBoss\Create\Create_FinalBossBeShotImage">
+      <UniqueIdentifier>{96c53e18-9a6a-44bc-9323-0cc0983407ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Scene\Ending\EndingCredit_BackDropActor">
+      <UniqueIdentifier>{c0da7ee1-fd3b-4c7b-a482-e57eab16a557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Scene\Ending\EndingCredit_ImageCut">
+      <UniqueIdentifier>{106efc2f-f532-4707-9ab9-19007e1a1af1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Scene\Ending\EndingCredit_ObjectActor">
+      <UniqueIdentifier>{a5b9f160-adfb-4a24-b997-5a618d728e4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Ending\Object">
+      <UniqueIdentifier>{5586f7d4-1784-4aaa-86d0-4fefc3e8bacd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Ending\Object\EndingText">
+      <UniqueIdentifier>{42dbdc73-7f0e-4e33-9654-64aa05a24f27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Ending\Object\CampFire">
+      <UniqueIdentifier>{85cce49f-8cf1-4372-bc33-d8030149f0db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Ending\BackGround">
+      <UniqueIdentifier>{1df3ee4c-0d39-4aa8-98a4-f7345caa039d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Ending\BackGround\BackDrop">
+      <UniqueIdentifier>{5614978b-2344-4533-b4c4-cc1ac1d63ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Ending\BackGround\CampFire_BackDrop">
+      <UniqueIdentifier>{80cc6430-cdb9-4b3e-b657-8ac06eb4502c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\Ending\Object\Player">
+      <UniqueIdentifier>{ed97ab7a-d922-4d65-a1f7-4ad38dc42a93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\TileMapEditor\Tile">
+      <UniqueIdentifier>{27853f26-4b59-4c8e-8ec3-9b3e8a5ca3cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContents\Actor\TileMapEditor\BackGound">
+      <UniqueIdentifier>{a757af66-250e-4956-bae6-504f855a6f16}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SGameCore.h">
+      <Filter>GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="ShovelKnigthTitle.h">
+      <Filter>GameContents\Scene\ShovelKnightTitle</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleBackDrop.h">
+      <Filter>GameContents\Actor\ShovelKnightTitle</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuButton.h">
+      <Filter>GameContents\Actor\ShovelKnightTitle</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuSelector.h">
+      <Filter>GameContents\Actor\ShovelKnightTitle</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMapEditor.h">
+      <Filter>GameContents\Scene\TileMapEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Plains.h">
+      <Filter>GameContents\Scene\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelMap.h">
+      <Filter>GameContents\Scene\LevelMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Enchantress.h">
+      <Filter>GameContents\Scene\Enchantress</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingCredit.h">
+      <Filter>GameContents\Scene\Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="GameIntro.h">
+      <Filter>GameContents\Scene\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroBackDrop.h">
+      <Filter>GameContents\Actor\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleEffect.h">
+      <Filter>GameContents\Actor\ShovelKnightTitle</Filter>
+    </ClInclude>
+    <ClInclude Include="ShovelKnightInfo.h">
+      <Filter>GameContents\Actor\Stage1\ShovelKnightInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeInOutActor.h">
+      <Filter>GameContents\Actor\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="StateTopBar.h">
+      <Filter>GameContents\Actor\Stage1\UI\StateBar</Filter>
+    </ClInclude>
+    <ClInclude Include="Beeto.h">
+      <Filter>GameContents\Actor\Stage1\Monster\Beeto</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalValue.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterInfo.h">
+      <Filter>GameContents\Actor\Stage1\Monster\MonsterInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="PlainsBackDrop.h">
+      <Filter>GameContents\Actor\Stage1\BackDrop\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="PlainsCollisionMap.h">
+      <Filter>GameContents\Actor\Stage1\BackDrop\CollisionMap</Filter>
+    </ClInclude>
+    <ClInclude Include="PlainsTileMap.h">
+      <Filter>GameContents\Actor\Stage1\BackDrop\TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingPlatform.h">
+      <Filter>GameContents\Actor\Stage1\BackDrop\MovingPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="StoneObject.h">
+      <Filter>GameContents\Actor\Stage1\Object\Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="StoneObject_Fragments.h">
+      <Filter>GameContents\Actor\Stage1\Object\Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="DirtBlock.h">
+      <Filter>GameContents\Actor\Stage1\Object\DirtBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="DirtBlock_Small.h">
+      <Filter>GameContents\Actor\Stage1\Object\DirtBlock_Small</Filter>
+    </ClInclude>
+    <ClInclude Include="PileBubbles.h">
+      <Filter>GameContents\Actor\Stage1\Object\PileBubbles</Filter>
+    </ClInclude>
+    <ClInclude Include="SavePoint.h">
+      <Filter>GameContents\Actor\Stage1\Object\SavePoint</Filter>
+    </ClInclude>
+    <ClInclude Include="DeathScreen.h">
+      <Filter>GameContents\Actor\Stage1\Object\DeathScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="Dozedrake.h">
+      <Filter>GameContents\Actor\Stage1\Monster\Dozedrake</Filter>
+    </ClInclude>
+    <ClInclude Include="Dozedrake_AttackBubble.h">
+      <Filter>GameContents\Actor\Stage1\Monster\Dozedrake\Dozedrake_AttackBubble</Filter>
+    </ClInclude>
+    <ClInclude Include="SkullSoldier.h">
+      <Filter>GameContents\Actor\Stage1\Monster\Skull Soldier</Filter>
+    </ClInclude>
+    <ClInclude Include="Dozedrake_DeathEffect.h">
+      <Filter>GameContents\Actor\Stage1\Monster\Dozedrake\Dozedrake_DeathEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Slime.h">
+      <Filter>GameContents\Actor\Stage1\Monster\Slime</Filter>
+    </ClInclude>
+    <ClInclude Include="Dragon.h">
+      <Filter>GameContents\Actor\Stage1\Monster\Dragon</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackKnight.h">
+      <Filter>GameContents\Actor\Stage1\Monster\BlackKnight</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackKnight_SkillEffect.h">
+      <Filter>GameContents\Actor\Stage1\Monster\BlackKnight\BlackKnight_SkillEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="DropGold.h">
+      <Filter>GameContents\Actor\Stage1\Object\DropGold</Filter>
+    </ClInclude>
+    <ClInclude Include="GoldObject.h">
+      <Filter>GameContents\Actor\Stage1\Object\GoldObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Platter.h">
+      <Filter>GameContents\Actor\Stage1\Object\Platter</Filter>
+    </ClInclude>
+    <ClInclude Include="Chicken.h">
+      <Filter>GameContents\Actor\Stage1\Object\Platter\Chicken</Filter>
+    </ClInclude>
+    <ClInclude Include="Platter_FragmentsFloor.h">
+      <Filter>GameContents\Actor\Stage1\Object\Platter\FragmentsFloor</Filter>
+    </ClInclude>
+    <ClInclude Include="Platter_FragmentsLid.h">
+      <Filter>GameContents\Actor\Stage1\Object\Platter\FragmentsLid</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>GameContents\Actor\Stage1\UI\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelMapBackDrop.h">
+      <Filter>GameContents\Actor\LevelMap\BackDrop\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelMapCollisionMap.h">
+      <Filter>GameContents\Actor\LevelMap\BackDrop\CollisionMap</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelMapTileMap.h">
+      <Filter>GameContents\Actor\LevelMap\BackDrop\TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Plains_Icon.h">
+      <Filter>GameContents\Actor\LevelMap\Object\MapIcon\Plains_Icon</Filter>
+    </ClInclude>
+    <ClInclude Include="Enchantress_Icon.h">
+      <Filter>GameContents\Actor\LevelMap\Object\MapIcon\Enchantress_Icon</Filter>
+    </ClInclude>
+    <ClInclude Include="None_Icon.h">
+      <Filter>GameContents\Actor\LevelMap\Object\MapIcon\None_Icon</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMaker.h">
+      <Filter>GameContents\Actor\LevelMap\PlayerMaker</Filter>
+    </ClInclude>
+    <ClInclude Include="MapCloud.h">
+      <Filter>GameContents\Actor\LevelMap\Object\MapCloud</Filter>
+    </ClInclude>
+    <ClInclude Include="EnchantressBackDrop.h">
+      <Filter>GameContents\Actor\Enchantress\BackDrop\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="EnchantressCollisionMap.h">
+      <Filter>GameContents\Actor\Enchantress\BackDrop\CollisionMap</Filter>
+    </ClInclude>
+    <ClInclude Include="EnchantressTileMap.h">
+      <Filter>GameContents\Actor\Enchantress\BackDrop\TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="EnchantressBrokenTile.h">
+      <Filter>GameContents\Actor\Enchantress\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Enchantress_FinalBoss.h">
+      <Filter>GameContents\Actor\Enchantress\Monster\FinalBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="ShovelKnight.h">
+      <Filter>GameContents\Actor\Stage1\ShovelKnight</Filter>
+    </ClInclude>
+    <ClInclude Include="BrokenTileEffect.h">
+      <Filter>GameContents\Actor\Stage1\ShovelKnight\ShovelKnight_Create\BrokenTileMap\BrokenTile_Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Plains_IconEffect.h">
+      <Filter>GameContents\Actor\LevelMap\Object\MapIcon\Plains_Icon\Plains_Icon_Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Enchantress_ShovelKnight.h">
+      <Filter>GameContents\Actor\Enchantress\ShovelKnight</Filter>
+    </ClInclude>
+    <ClInclude Include="Enchantress_StateBar.h">
+      <Filter>GameContents\Actor\Enchantress\UI\StateBar</Filter>
+    </ClInclude>
+    <ClInclude Include="Enchantress_FinalBoss_AttackSkill.h">
+      <Filter>GameContents\Actor\Enchantress\Monster\FinalBoss\AttackSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="Enchantress_FinalBoss_RegenSkill.h">
+      <Filter>GameContents\Actor\Enchantress\Monster\FinalBoss\TileRegenSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingText.h">
+      <Filter>GameContents\Actor\Ending\Object\EndingText</Filter>
+    </ClInclude>
+    <ClInclude Include="CampFire.h">
+      <Filter>GameContents\Actor\Ending\Object\CampFire</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingBackDrop.h">
+      <Filter>GameContents\Actor\Ending\BackGround\BackDrop</Filter>
+    </ClInclude>
+    <ClInclude Include="CampFire_BackDrop.h">
+      <Filter>GameContents\Actor\Ending\BackGround\CampFire_BackDrop</Filter>
+    </ClInclude>
+    <ClInclude Include="Ending_Player.h">
+      <Filter>GameContents\Actor\Ending\Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorTileBackDrop.h">
+      <Filter>GameContents\Actor\TileMapEditor\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorBackDrop.h">
+      <Filter>GameContents\Actor\TileMapEditor\BackGound</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{7eb51485-b4a1-4285-b1dd-20701b44d15b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PublicHeader">
+      <UniqueIdentifier>{ab139e77-c864-4dd6-b9d6-1a397305c114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor">
+      <UniqueIdentifier>{1b4a9277-0d21-431f-9a2f-872de1f51df2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{5437b537-91e3-4673-8802-4446ee3ef014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResourceManager">
+      <UniqueIdentifier>{9df90aa5-1739-4178-989e-cdc4b9a04c92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{de59852d-efc4-4fa7-b5f8-6a8f44f4c4ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{dc1fec68-1aab-4bdc-8165-da1f9e6ff1e5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SGameEngineScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameEngineClientPublic.h">
+      <Filter>PublicHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameEngineActor.h">
+      <Filter>Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameEngineSceneManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameEngineResMgr.h">
+      <Filter>ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameEngineRenderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameEngineRendererBasic.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameEngineRendererAnimation.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameEngineRendererTile.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameEngineRendererOnOffBase.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameEngineCollision.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SGameEngineScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SGameEngineActor.cpp">
+      <Filter>Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="SGameEngineSceneManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SGameEngineResMgr.cpp">
+      <Filter>ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SGameEngineRenderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="SGameEngineRendererBasic.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="SGameEngineRendererAnimation.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="SGameEngineRendererTile.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="SGameEngineRendererOnOffBase.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="SGameEngineCollision.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

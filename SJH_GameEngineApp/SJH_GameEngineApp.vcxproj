@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{c780b2b7-71d1-4ed9-a8cb-f26de7beb39a}</ProjectGuid>
+    <RootNamespace>SJHGameEngineApp</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\ProjectBuild\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>..\ProjectBuild\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IncludePath>..\SJH_GameEngineBase\;..\SJH_GameEngineClient\;..\SJH_GameEnginePlatform\;$(IncludePath)</IncludePath>
+    <LibraryPath>..\ProjectBuild\$(Platform)\$(Configuration)\;..\Third_Part\$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\ProjectBuild\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>..\ProjectBuild\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <LibraryPath>..\ProjectBuild\$(Platform)\$(Configuration)\;..\Third_Part\$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\SJH_GameEngineBase\;..\SJH_GameEngineClient\;..\SJH_GameEnginePlatform\;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Beeto.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Beeto_Collision.cpp" />
+    <ClCompile Include="Beeto_State.cpp" />
+    <ClCompile Include="BlackKnight.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="BlackKnight_Collision.cpp" />
+    <ClCompile Include="BlackKnight_DirectCheck.cpp" />
+    <ClCompile Include="BlackKnight_MovePosCheck.cpp" />
+    <ClCompile Include="BlackKnight_SkillEffect.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="BlackKnight_SkillEffect_Collision.cpp" />
+    <ClCompile Include="BlackKnight_SkillEffect_State.cpp" />
+    <ClCompile Include="BlackKnight_State.cpp" />
+    <ClCompile Include="BlackKnight_StateCheck.cpp" />
+    <ClCompile Include="BlackKnight_TimeEventer.cpp" />
+    <ClCompile Include="BrokenTileEffect.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="BrokenTileEffect_State.cpp" />
+    <ClCompile Include="Camera_Pixel.cpp" />
+    <ClCompile Include="CampFire.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="CampFire_BackDrop.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="CampFire_State.cpp" />
+    <ClCompile Include="Chicken.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Chicken_Collision.cpp" />
+    <ClCompile Include="Create_BrokenObject.cpp" />
+    <ClCompile Include="Create_FinalBossAnimation.cpp" />
+    <ClCompile Include="Create_FinalBossBeShotImage.cpp" />
+    <ClCompile Include="Create_FinalBossCollision.cpp" />
+    <ClCompile Include="Create_FinalBossFSM.cpp" />
+    <ClCompile Include="DeathScreen.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="DeathScreen_State.cpp" />
+    <ClCompile Include="DirtBlock.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="DirtBlock_Collision.cpp" />
+    <ClCompile Include="DirtBlock_Small.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="DirtBlock_Small_Collision.cpp" />
+    <ClCompile Include="DirtBlock_Small_State.cpp" />
+    <ClCompile Include="DitBlock_State.cpp" />
+    <ClCompile Include="Dozedrake.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Dozedrake_AttackBubble.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Dozedrake_AttackBubble_Collision.cpp" />
+    <ClCompile Include="Dozedrake_AttackBubble_State.cpp" />
+    <ClCompile Include="Dozedrake_Collision.cpp" />
+    <ClCompile Include="Dozedrake_DeathEffect.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Dozedrake_DeathEffect_State.cpp" />
+    <ClCompile Include="Dozedrake_State.cpp" />
+    <ClCompile Include="Dragon.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Dragon_Collision.cpp" />
+    <ClCompile Include="Dragon_State.cpp" />
+    <ClCompile Include="DropGold.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="DropGold_Collision.cpp" />
+    <ClCompile Include="DropGold_State.cpp" />
+    <ClCompile Include="EditorBackDrop.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EditorTileBackDrop.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Enchantress.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EnchantressBackDrop.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EnchantressBrokenTile.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EnchantressBrokenTile_Collision.cpp" />
+    <ClCompile Include="EnchantressBrokenTile_State.cpp" />
+    <ClCompile Include="EnchantressCollisionMap.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EnchantressTileMap.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Enchantress_BackDropActor.cpp" />
+    <ClCompile Include="Enchantress_Camera_Pixel.cpp" />
+    <ClCompile Include="Enchantress_CollisionGroup.cpp" />
+    <ClCompile Include="Enchantress_FinalBoss.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Enchantress_FinalBossAppear_CamCheck.cpp" />
+    <ClCompile Include="Enchantress_FinalBoss_AttackSkill.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Enchantress_FinalBoss_AttackSkill_Collision.cpp" />
+    <ClCompile Include="Enchantress_FinalBoss_AttackSkill_State.cpp" />
+    <ClCompile Include="Enchantress_FinalBoss_Collision.cpp" />
+    <ClCompile Include="Enchantress_FinalBoss_MovePosCheck.cpp" />
+    <ClCompile Include="Enchantress_FinalBoss_RegenSkill.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Enchantress_FinalBoss_RegenSkill_Collision.cpp" />
+    <ClCompile Include="Enchantress_FinalBoss_RegenSkill_State.cpp" />
+    <ClCompile Include="Enchantress_FinalBoss_State.cpp" />
+    <ClCompile Include="Enchantress_FinalBoss_StateCheck.cpp" />
+    <ClCompile Include="Enchantress_Icon.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Enchantress_ImageCut.cpp" />
+    <ClCompile Include="Enchantress_MonsterActor.cpp" />
+    <ClCompile Include="Enchantress_ObjectActor.cpp" />
+    <ClCompile Include="Enchantress_Player_Pixel.cpp" />
+    <ClCompile Include="Enchantress_ShovelKngith_CameraLerp.cpp" />
+    <ClCompile Include="Enchantress_ShovelKnight.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Enchantress_ShovelKnight_Collision.cpp" />
+    <ClCompile Include="Enchantress_ShovelKnight_CreateAnimation.cpp" />
+    <ClCompile Include="Enchantress_ShovelKnight_CreateCollision.cpp" />
+    <ClCompile Include="Enchantress_ShovelKnight_CreateFSM.cpp" />
+    <ClCompile Include="Enchantress_ShovelKnight_CreateKey.cpp" />
+    <ClCompile Include="Enchantress_ShovelKnight_MovePosCheck.cpp" />
+    <ClCompile Include="Enchantress_ShovelKnight_SettingInfo.cpp" />
+    <ClCompile Include="Enchantress_ShovelKnight_State.cpp" />
+    <ClCompile Include="Enchantress_ShovelKnight_StateCheck.cpp" />
+    <ClCompile Include="Enchantress_StateBar.cpp" />
+    <ClCompile Include="EndingBackDrop.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EndingCredit.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EndingCredit_BackDropActor.cpp" />
+    <ClCompile Include="EndingCredit_ImageCut.cpp" />
+    <ClCompile Include="EndingCredit_ObjectActor.cpp" />
+    <ClCompile Include="EndingText.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EndingText_State.cpp" />
+    <ClCompile Include="Ending_Player.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Ending_Player_State.cpp" />
+    <ClCompile Include="FadeInOutActor.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="GameIntro.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="GlobalValue.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="GoldObject.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="GoldObject_Collision.cpp" />
+    <ClCompile Include="GoldObject_State.cpp" />
+    <ClCompile Include="IntroBackDrop.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="LevelMap.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="LevelMapBackDrop.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="LevelMapCollisionMap.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="LevelMapTileMap.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="LevelMap_BackDropActor.cpp" />
+    <ClCompile Include="LevelMap_CollisionGroup.cpp" />
+    <ClCompile Include="LevelMap_ImageCut.cpp" />
+    <ClCompile Include="LevelMap_ObjectActor.cpp" />
+    <ClCompile Include="MapCloud.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="MenuButton.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="MenuSelector.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="MonsterInfo.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="MovingPlatform.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="MovingPlatform_Collision.cpp" />
+    <ClCompile Include="MovingPlatform_State.cpp" />
+    <ClCompile Include="None_Icon.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="PileBubbles.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="PileBubbles_Collision.cpp" />
+    <ClCompile Include="PileBubbles_State.cpp" />
+    <ClCompile Include="Plains.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="PlainsBackDrop.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="PlainsCollisionMap.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="PlainsTileMap.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Plains_BacKDropActor.cpp" />
+    <ClCompile Include="Plains_CollisionGroup.cpp" />
+    <ClCompile Include="Plains_Icon.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Plains_IconEffect.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Plains_IconEffect_State.cpp" />
+    <ClCompile Include="Plains_ImageCut.cpp" />
+    <ClCompile Include="Plains_MonsterActor.cpp" />
+    <ClCompile Include="Plains_ObjectActor.cpp" />
+    <ClCompile Include="Platter.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Platter_Collision.cpp" />
+    <ClCompile Include="Platter_FragmentsFloor.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Platter_FragmentsLid.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="PlayerInfomation.cpp" />
+    <ClCompile Include="PlayerMaker.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="PlayerMaker_CreateAnimaion.cpp" />
+    <ClCompile Include="PlayerMaker_CreateFSM.cpp" />
+    <ClCompile Include="PlayerMaker_CreateKey.cpp" />
+    <ClCompile Include="PlayerMaker_MoveTileCheck.cpp" />
+    <ClCompile Include="Player_Pixel.cpp" />
+    <ClCompile Include="SavePoint.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="SavePoint_Collision.cpp" />
+    <ClCompile Include="SavePoint_State.cpp" />
+    <ClCompile Include="SGameCore.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="ShovelKnight.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="ShovelKnightInfo.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="ShovelKnight_BrokenTile.cpp" />
+    <ClCompile Include="ShovelKnight_CameraLerp.cpp" />
+    <ClCompile Include="ShovelKnight_Collision.cpp" />
+    <ClCompile Include="ShovelKnight_ColMovePosCheck.cpp" />
+    <ClCompile Include="ShovelKnight_ColState.cpp" />
+    <ClCompile Include="ShovelKnight_ColStateCheck.cpp" />
+    <ClCompile Include="ShovelKnight_CreateAnimation.cpp" />
+    <ClCompile Include="ShovelKnight_CreateCollision.cpp" />
+    <ClCompile Include="ShovelKnight_CreateFSM.cpp" />
+    <ClCompile Include="ShovelKnight_KeyCreate.cpp" />
+    <ClCompile Include="ShovelKnight_MovePosCheck.cpp" />
+    <ClCompile Include="ShovelKnight_State.cpp" />
+    <ClCompile Include="ShovelKnight_StateCheck.cpp" />
+    <ClCompile Include="ShovelKnigthTitle.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="SJH_AppMain.cpp" />
+    <ClCompile Include="SkullSoldier.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="SkullSoldier_Collision.cpp" />
+    <ClCompile Include="SkullSoldier_State.cpp" />
+    <ClCompile Include="Slime.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Slime_Collision.cpp" />
+    <ClCompile Include="Slime_State.cpp" />
+    <ClCompile Include="StateTopBar.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="StoneObject.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="StoneObject_Collision.cpp" />
+    <ClCompile Include="StoneObject_Fragments.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="StoneObject_State.cpp" />
+    <ClCompile Include="TileMapEditor.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="TitleBackDrop.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="TitleEffect.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Beeto.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="BlackKnight.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="BlackKnight_SkillEffect.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="BrokenTileEffect.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="CampFire.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="CampFire_BackDrop.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Chicken.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="DeathScreen.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="DirtBlock.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="DirtBlock_Small.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Dozedrake.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Dozedrake_AttackBubble.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Dozedrake_DeathEffect.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Dragon.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="DropGold.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EditorBackDrop.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EditorTileBackDrop.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Enchantress.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EnchantressBackDrop.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EnchantressBrokenTile.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EnchantressCollisionMap.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EnchantressTileMap.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Enchantress_FinalBoss.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Enchantress_FinalBoss_AttackSkill.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Enchantress_FinalBoss_RegenSkill.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Enchantress_Icon.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Enchantress_ShovelKnight.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Enchantress_StateBar.h" />
+    <ClInclude Include="EndingBackDrop.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EndingCredit.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EndingText.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Ending_Player.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="FadeInOutActor.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="GameIntro.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="GlobalValue.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="GoldObject.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="IntroBackDrop.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="LevelMap.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="LevelMapBackDrop.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="LevelMapCollisionMap.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="LevelMapTileMap.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="MapCloud.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="MenuButton.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="MenuSelector.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="MonsterInfo.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="MovingPlatform.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="None_Icon.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="PileBubbles.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Plains.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="PlainsBackDrop.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="PlainsCollisionMap.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="PlainsTileMap.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Plains_Icon.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Plains_IconEffect.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Platter.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Platter_FragmentsFloor.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Platter_FragmentsLid.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="PlayerMaker.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="SavePoint.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="SGameCore.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShovelKnight.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShovelKnightInfo.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShovelKnigthTitle.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="SkullSoldier.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Slime.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="StateTopBar.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="StoneObject.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="StoneObject_Fragments.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="TileMapEditor.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="TitleBackDrop.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="TitleEffect.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

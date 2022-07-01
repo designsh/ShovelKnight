@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="SGameEngineDebug.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameEngineMemory.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameEngineMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameEngineDirectory.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameEngineFile.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameEnginePath.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameEngineString.h">
+      <Filter>String</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameEngineBasePublic.h">
+      <Filter>PublicHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameEngineTimer.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameEngineInput.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameEngineTimeEventer.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameEngineFSM.h">
+      <Filter>FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameEngineObjectBase.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="SGameEngineSound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod.h">
+      <Filter>Sound\Third Part</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod.hpp">
+      <Filter>Sound\Third Part</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_codec.h">
+      <Filter>Sound\Third Part</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_common.h">
+      <Filter>Sound\Third Part</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_dsp.h">
+      <Filter>Sound\Third Part</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_dsp_effects.h">
+      <Filter>Sound\Third Part</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_errors.h">
+      <Filter>Sound\Third Part</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_output.h">
+      <Filter>Sound\Third Part</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SGameEngineDebug.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="SGameEngineMemory.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="SGameEngineMath.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="SGameEngineDirectory.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="SGameEngineFile.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="SGameEnginePath.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="SGameEngineString.cpp">
+      <Filter>String</Filter>
+    </ClCompile>
+    <ClCompile Include="SGameEngineTimer.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="SGameEngineInput.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="SGameEngineObjectBase.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="SGameEngineSound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="IO">
+      <UniqueIdentifier>{442ef6cd-dd66-4113-a3c2-6419ac160564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="String">
+      <UniqueIdentifier>{5185e9ea-98e2-4368-af53-ed5868666214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{418b900c-9f47-4007-bf45-b85e2e8b3585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{23995697-20b2-4e55-9ade-ceb073a5f9f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PublicHeader">
+      <UniqueIdentifier>{cf9fb37a-3017-49a0-9c26-02a630cddf3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{620f8633-f58e-450b-87d7-c8ae3baf7637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timer">
+      <UniqueIdentifier>{17205ee7-5832-4478-bc6d-1eecdb41b08f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{1241a647-2149-4667-ab09-4a91e5c90c5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM">
+      <UniqueIdentifier>{2756fc92-e824-4dc2-803c-1687cfb357e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{7cb8e5f5-79b6-41dd-acdc-738e1fabd79b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{4fad5b13-f5ff-4e99-84fd-bff5a7072f75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound\Third Part">
+      <UniqueIdentifier>{5a5e2fbc-e793-4c5e-a87b-a7f87cc4c458}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+XCOPY %~1\Third_Part\%~2\%~3\*.* %~1\ProjectBuild\%~2\%~3\ /y /d
