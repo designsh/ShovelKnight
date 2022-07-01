@@ -121,6 +121,14 @@
       </SubType>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Third_Part\x64\Debug\fmodL.dll" />
+    <None Include="..\Third_Part\x64\Release\fmod.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\Third_Part\x64\Debug\fmodL_vc.lib" />
+    <Library Include="..\Third_Part\x64\Release\fmod_vc.lib" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>

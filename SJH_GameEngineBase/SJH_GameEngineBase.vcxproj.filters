@@ -44,28 +44,28 @@
       <Filter>Sound</Filter>
     </ClInclude>
     <ClInclude Include="fmod.h">
-      <Filter>Sound\Third Part</Filter>
+      <Filter>Sound\Third Part\Include</Filter>
     </ClInclude>
     <ClInclude Include="fmod.hpp">
-      <Filter>Sound\Third Part</Filter>
+      <Filter>Sound\Third Part\Include</Filter>
     </ClInclude>
     <ClInclude Include="fmod_codec.h">
-      <Filter>Sound\Third Part</Filter>
+      <Filter>Sound\Third Part\Include</Filter>
     </ClInclude>
     <ClInclude Include="fmod_common.h">
-      <Filter>Sound\Third Part</Filter>
+      <Filter>Sound\Third Part\Include</Filter>
     </ClInclude>
     <ClInclude Include="fmod_dsp.h">
-      <Filter>Sound\Third Part</Filter>
+      <Filter>Sound\Third Part\Include</Filter>
     </ClInclude>
     <ClInclude Include="fmod_dsp_effects.h">
-      <Filter>Sound\Third Part</Filter>
+      <Filter>Sound\Third Part\Include</Filter>
     </ClInclude>
     <ClInclude Include="fmod_errors.h">
-      <Filter>Sound\Third Part</Filter>
+      <Filter>Sound\Third Part\Include</Filter>
     </ClInclude>
     <ClInclude Include="fmod_output.h">
-      <Filter>Sound\Third Part</Filter>
+      <Filter>Sound\Third Part\Include</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -140,5 +140,33 @@
     <Filter Include="Sound\Third Part">
       <UniqueIdentifier>{5a5e2fbc-e793-4c5e-a87b-a7f87cc4c458}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Sound\Third Part\Include">
+      <UniqueIdentifier>{e8c6a3c3-02e5-4543-9c26-59cca71eac93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound\Third Part\Lib">
+      <UniqueIdentifier>{e1155b85-ae28-4cc3-a4f2-e2a8a9b0c98a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound\Third Part\Lib\Debug">
+      <UniqueIdentifier>{d960619f-16f0-4469-ae10-a5cd5e1a3149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound\Third Part\Lib\Release">
+      <UniqueIdentifier>{1bd21b38-689d-4408-8737-309ada2c7bf3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Third_Part\x64\Debug\fmodL.dll">
+      <Filter>Sound\Third Part\Lib\Debug</Filter>
+    </None>
+    <None Include="..\Third_Part\x64\Release\fmod.dll">
+      <Filter>Sound\Third Part\Lib\Release</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\Third_Part\x64\Debug\fmodL_vc.lib">
+      <Filter>Sound\Third Part\Lib\Debug</Filter>
+    </Library>
+    <Library Include="..\Third_Part\x64\Release\fmod_vc.lib">
+      <Filter>Sound\Third Part\Lib\Release</Filter>
+    </Library>
   </ItemGroup>
 </Project>
