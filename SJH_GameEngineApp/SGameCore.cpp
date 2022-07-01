@@ -38,12 +38,14 @@ void SGameCore::GameStart()
 	// EndingCredit : 엔딩 씬
 	// 씬 생성시 Start()함수시 현재 씬에 해당하는 리소스를 불러온다.
 	SceneManager.CreateScene<ShovelKnigthTitle>(L"ShovelKnigthTitle");
-	SceneManager.CreateScene<TileMapEditor>(L"TileMapEditor");
+	SceneManager.CreateScene<Plains>(L"Plains");						// 이곳에서 State1(Plains Collision Map)을 로드 : 레벨생성시 리소스로드
 	SceneManager.CreateScene<GameIntro>(L"GameIntro");
-	SceneManager.CreateScene<Plains>(L"Plains");
 	SceneManager.CreateScene<LevelMap>(L"LevelMap");
 	SceneManager.CreateScene<Enchantress>(L"Enchantress");
 	SceneManager.CreateScene<EndingCredit>(L"EndingCredit");
+
+	// Plains와 TileMapEditor는 같은 충돌맵을 사용해야하므로 TileMapEditor는 가장 나중에 생성
+	SceneManager.CreateScene<TileMapEditor>(L"TileMapEditor");
 
 	// 현재 씬을 설정
 	SceneManager.ChangeScene(L"ShovelKnigthTitle");

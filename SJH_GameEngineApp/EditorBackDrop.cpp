@@ -29,7 +29,8 @@ void EditorBackDrop::Start()
 
 	// 씬 충돌맵 바탕 23040 x 4320
 	m_CollBackGround = CreateRenderer<SGameEngineRendererBasic>(0);
-	m_CollBackGround->TransCenterSetting(L"Editor_BackGround.bmp", { 23040.f, 4320.f });
+	//m_CollBackGround->TransCenterSetting(L"Editor_BackGround.bmp", { 23040.f, 4320.f });
+	m_CollBackGround->TransCenterSetting(L"Plains.bmp", { 23040.f, 4320.f });
 	m_CollBackGround->SetPivotPos({ 23040 * 0.5f, 4320 * 0.5f });
 
 	// 참고용 백그라운드

@@ -58,4 +58,3 @@
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
 Plains.bmp filter=lfs diff=lfs merge=lfs -text
-Editor_BackGround.bmp filter=lfs diff=lfs merge=lfs -text
